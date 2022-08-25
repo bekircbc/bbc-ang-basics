@@ -11,6 +11,12 @@
       ng generate component component-name
       ng g c component-name
 
+# selectors
+
+      <app-servers></app-servers>
+      <div app-servers></div>
+      <div class="app-servers"></div>
+
 # BbcAngBasics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
