@@ -6,6 +6,11 @@
 
       ng serve
 
+# creating new element in bash
+
+      ng generate component component-name
+      ng g c component-name
+
 # BbcAngBasics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
