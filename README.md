@@ -1,3 +1,11 @@
+# before starting
+
+      sudo npm i -g @angular/cli@latest
+
+      ng new bbc-ang-basics
+
+      ng serve
+
 # BbcAngBasics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
