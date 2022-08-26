@@ -17,6 +17,10 @@
       <div app-servers></div>
       <div class="app-servers"></div>
 
+# Directives
+
+- Directives areintructions in the Dom..
+
 # BbcAngBasics
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
