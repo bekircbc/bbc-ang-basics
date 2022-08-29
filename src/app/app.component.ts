@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styles: ['h3{color:dodgerblue;}'],
 })
 export class AppComponent {
+  serverId: number = 10;
+  serverStatus: string = 'offline';
   title = 'Angular Basics';
 }
