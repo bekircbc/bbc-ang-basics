@@ -1,1 +1,9 @@
-<p>employees-page works!</p>
+<h2>There are {{ employees.length }} employees:</h2>
+
+<div *ngFor="let employee of employees">
+  <div class="employee">
+    <a routerLink="/employees/{{ employee.employeeID }}">
+      {{ employee.firstName }} {{ employee.lastName }}
+    </a>
+  </div>
+</div>
