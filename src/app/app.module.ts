@@ -12,7 +12,15 @@ import { InfoPageComponent } from './info-page/info-page.component';
 import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent, Component1Component, EmployeesPageComponent, InfoPageComponent, EmployeeDetailPageComponent],
+  declarations: [
+    AppComponent,
+    ServerComponent,
+    ServersComponent,
+    Component1Component,
+    EmployeesPageComponent,
+    InfoPageComponent,
+    EmployeeDetailPageComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

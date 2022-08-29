@@ -9,7 +9,7 @@ import { employees } from '../datamodel';
 })
 export class EmployeeDetailPageComponent implements OnInit {
   employee: any = {};
-  constructor() {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
     const id = this.route.snapshot.paramMap.get('id');
