@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { EmployeesPageComponent } from './employees-page/employees-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
+import { ServersComponent } from './servers/servers.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,11 @@ const routes: Routes = [
   {
     path: 'employees/:id',
     component: EmployeeDetailPageComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'servers',
+    component: ServersComponent,
     pathMatch: 'full',
   },
 ];
