@@ -10,7 +10,7 @@ import { Component1Component } from './component1/component1.component';
 import { EmployeesPageComponent } from './employees-page/employees-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
-import { AdminsComponent } from './admins/admins.component';
+
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
@@ -22,7 +22,6 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
     EmployeesPageComponent,
     InfoPageComponent,
     EmployeeDetailPageComponent,
-    AdminsComponent,
     ShoppingListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
