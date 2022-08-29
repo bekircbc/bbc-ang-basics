@@ -10,6 +10,7 @@ import { Component1Component } from './component1/component1.component';
 import { EmployeesPageComponent } from './employees-page/employees-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
 import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
+import { AdminsComponent } from './admins/admins.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { EmployeeDetailPageComponent } from './employee-detail-page/employee-det
     EmployeesPageComponent,
     InfoPageComponent,
     EmployeeDetailPageComponent,
+    AdminsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],

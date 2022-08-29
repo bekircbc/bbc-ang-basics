@@ -4,7 +4,7 @@ import { employees } from '../datamodel';
 
 @Component({
   selector: 'app-employee-detail-page',
-  templateUrl: './employee-detail-page.component.html',
+  template: './employee-detail-page.component.html',
   styleUrls: ['./employee-detail-page.component.css'],
 })
 export class EmployeeDetailPageComponent implements OnInit {

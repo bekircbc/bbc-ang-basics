@@ -1,19 +1,24 @@
-<button class="btn btn-primary" (click)="onToggleDetails()">
-  Display Details
-</button>
-<br />
-<p *ngIf="showSecret">Secret Password=tuna</p>
-<label>Server Name</label>
-<!-- <input type="text" class="form-control" (input)="onUpdateServerName($event)" /> -->
-<input type="text" class="form-control" [(ngModel)]="serverName" />
-<!-- <p>{{ serverName }}</p> -->
-<button
-  class="btn btn-primary"
-  [disabled]="!allowNewServer"
-  (click)="onCreateServer()"
->
-  Add Server
-</button>
+<h2>Toggling the visibility of a text..</h2>
+<div>
+  <button class="btn btn-primary" (click)="onToggleDetails()">
+    Display Details
+  </button>
+  <br />
+  <p *ngIf="showSecret">Secret Password=tuna</p>
+</div>
+<div>
+  <label>Server Name</label>
+  <!-- <input type="text" class="form-control" (input)="onUpdateServerName($event)" /> -->
+  <input type="text" class="form-control" [(ngModel)]="serverName" />
+  <!-- <p>{{ serverName }}</p> -->
+  <button
+    class="btn btn-primary"
+    [disabled]="!allowNewServer"
+    (click)="onCreateServer()"
+  >
+    Add Server
+  </button>
+</div>
 <!-- <p [innerText]="allowNewServer"></p> -->
 <!-- <p>{{ serverCreationStatus }}</p> -->
 <p *ngIf="serverCreated; else noServer">
