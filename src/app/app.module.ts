@@ -7,9 +7,11 @@ import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { Component1Component } from './component1/component1.component';
+import { EmployeesPageComponent } from './employees-page/employees-page.component';
+import { InfoPageComponent } from './info-page/info-page.component';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent, Component1Component],
+  declarations: [AppComponent, ServerComponent, ServersComponent, Component1Component, EmployeesPageComponent, InfoPageComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],

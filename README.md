@@ -4,7 +4,7 @@
 
       ng new bbc-ang-basics
 
-      ng serve
+      ng serve oder ng serve -o (opens also the page)
 
 # creating new element in bash
 
