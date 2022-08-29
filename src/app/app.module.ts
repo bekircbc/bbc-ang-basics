@@ -9,9 +9,10 @@ import { ServersComponent } from './servers/servers.component';
 import { Component1Component } from './component1/component1.component';
 import { EmployeesPageComponent } from './employees-page/employees-page.component';
 import { InfoPageComponent } from './info-page/info-page.component';
+import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent, Component1Component, EmployeesPageComponent, InfoPageComponent],
+  declarations: [AppComponent, ServerComponent, ServersComponent, Component1Component, EmployeesPageComponent, InfoPageComponent, EmployeeDetailPageComponent],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
