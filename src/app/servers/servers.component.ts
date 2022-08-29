@@ -12,6 +12,7 @@ export class ServersComponent implements OnInit {
   serverCreated = false;
   servers = ['Testserver', 'Testserver 2', 'AAA'];
   showSecret = false;
+  log = [];
 
   constructor() {
     setTimeout(() => {
@@ -23,6 +24,7 @@ export class ServersComponent implements OnInit {
 
   onToggleDetails() {
     this.showSecret = !this.showSecret;
+    // this.log.push(new Date()); //not working
   }
 
   onCreateServer() {

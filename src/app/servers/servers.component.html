@@ -5,6 +5,13 @@
   </button>
   <br />
   <p *ngIf="showSecret">Secret Password=tuna</p>
+  <div
+    *ngfor="let logItem of log; let i = index"
+    [ngStyle]="{ backgroundColor: i >= 5 ? 'blue' : 'transparent' }"
+    [ngClass]="{ 'white-text': i >= 5 }"
+  >
+    {{ logItem }}
+  </div>
 </div>
 <div>
   <label>Server Name</label>
