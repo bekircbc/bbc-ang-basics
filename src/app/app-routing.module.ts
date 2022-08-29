@@ -4,6 +4,7 @@ import { EmployeesPageComponent } from './employees-page/employees-page.componen
 import { InfoPageComponent } from './info-page/info-page.component';
 import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
 import { ServersComponent } from './servers/servers.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,11 @@ const routes: Routes = [
   {
     path: 'servers',
     component: ServersComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'shoppinglist',
+    component: ShoppingListComponent,
     pathMatch: 'full',
   },
 ];
