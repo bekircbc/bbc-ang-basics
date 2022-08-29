@@ -1,0 +1,16 @@
+.employee {
+  background-color: #555;
+  width: 24rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.fullName {
+  font-size: 1.5rem;
+  color: rgb(35, 26, 8);
+}
+.title {
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
