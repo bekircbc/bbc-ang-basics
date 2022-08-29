@@ -11,6 +11,7 @@ import { EmployeesPageComponent } from './employees-page/employees-page.componen
 import { InfoPageComponent } from './info-page/info-page.component';
 import { EmployeeDetailPageComponent } from './employee-detail-page/employee-detail-page.component';
 import { AdminsComponent } from './admins/admins.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { AdminsComponent } from './admins/admins.component';
     InfoPageComponent,
     EmployeeDetailPageComponent,
     AdminsComponent,
+    ShoppingListComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
